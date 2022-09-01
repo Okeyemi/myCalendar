@@ -1,14 +1,15 @@
 <template>
-<AppHeader />
+  <Slider />
 <Calendar />
 </template>
 
 <script>
-import AppHeader from "./components/AppHeader";
+  import Slider from "./components/Slider";
 import Calendar from "./components/Calendar";
 
+
 export default{
-  components: {AppHeader, Calendar},
+  components: {Slider, Calendar},
 }
 
 </script>

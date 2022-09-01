@@ -1,5 +1,5 @@
 <template>
-  <div class="m-20 px-2">
+  <div class="m-20 px-2" >
        <h1 class="text-2xl my-2 text-center font-bold ">MY CALENDAR</h1>
  
        <section class="mx-7 flex justify-between">
@@ -37,6 +37,9 @@
        <section class="flex justify-between my-4">
            <button class="px-2 border rounded bg-blue-500 hover:bg-blue-700 text-white font-semibold"   @click="prev">Prev</button>
            <button class="px-2 border rounded bg-blue-500 hover:bg-blue-700 text-white font-semibold" @click="next">Next</button>
+       </section>
+       <section class="flex justify-center">
+        <button class="px-2 border rounded bg-blue-500 hover:bg-blue-700 text-white font-semibold" onclick="alert('Welcome to Okeyemi')">Powered by Okeyemi Creative </button>
        </section>
   </div>
 
